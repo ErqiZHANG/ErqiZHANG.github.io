@@ -31,7 +31,27 @@
 		
       <section class="side" id="side">
 		  <section class="profile info-unit">
-              <div class="g-news g-news_db" style="display: block;"> <span>今天是<script language="JavaScript">today=new Date();function initArray(){this.length=initArray.arguments.length
+			  		  		  <div id="box"></div>
+        <script type="text/javascript">
+            function setStorage(){
+                if(localStorage.counter){
+                    localStorage.counter=Number(localStorage.counter)+1;
+                }else{
+                    localStorage.counter=1;
+                }
+                return localStorage.counter;
+            }
+            var counter=setStorage();
+            var oBox=document.getElementById('box');
+            oBox.innerHTML="欢迎本网页的第"+counter+"位访问者";            
+        </script>
+              <div class="g-news g-news_db" style="display: block;">
+				  
+		
+				  
+		
+				  
+				  <span>今天是<script language="JavaScript">today=new Date();function initArray(){this.length=initArray.arguments.length
 for(var i=0;i<this.length;i++)
 this[i+1]=initArray.arguments[i]}
 var d=new initArray(" 星期日"," 星期一"," 星期二"," 星期三"," 星期四"," 星期五"," 星期六");document.write("<font> ",today.getFullYear(),"年",today.getMonth()+1,"月",today.getDate(),"日",d[today.getDay()+1],"</font>");</script></span> </div>  
@@ -677,7 +697,9 @@ var d=new initArray(" 星期日"," 星期一"," 星期二"," 星期三"," 星期
 
 
     <footer class="footer">
-        <p>Copyright©2022||文档最后更新时间为2022年04月01日</p>
+		
+        
+		<p>Copyright©2022||文档最后更新时间为2022年04月01日</p>
    
 </footer>
 
