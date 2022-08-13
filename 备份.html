@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>个人简历</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+
+
+ 
+<header class="header"></header>
+
+    <article class="container">
+		
+      <section class="side" id="side">
+		  <section class="profile info-unit">
+			  		  		  <div id="box"></div>
+        <script type="text/javascript">
+            function setStorage(){
+                if(localStorage.counter){
+                    localStorage.counter=Number(localStorage.counter)+1;
+                }else{
+                    localStorage.counter=1;
+                }
+                return localStorage.counter;
+            }
+            var counter=setStorage();
+            var oBox=document.getElementById('box');
+            oBox.innerHTML="第"+counter+"位访问者您好！";            
+        </script>
+              <div class="g-news g-news_db" style="display: block;">
+	 <span>今天是<script language="JavaScript">today=new Date();function initArray(){this.length=initArray.arguments.length
+for(var i=0;i<this.length;i++)
+this[i+1]=initArray.arguments[i]}
+var d=new initArray(" 星期日"," 星期一"," 星期二"," 星期三"," 星期四"," 星期五"," 星期六");document.write("<font> ",today.getFullYear(),"年",today.getMonth()+1,"月",today.getDate(),"日",d[today.getDay()+1],"</font>");</script></span> </div>  
+                <hr/>
+			  
+                <ul>
+                    <li>
+                        <div id="menu">
+		<canvas id="myCanvas" <="" canvas="" height="40" width="100"></canvas>
+
+<script>
+ var canvas = document.getElementById("myCanvas");
+ var ctx = canvas.getContext('2d');
+ canvas.height = 35;
+ ctx.fillStyle = "#fff";
+	
+ var dianMap = [
+     [
+         [0, 0, 1, 1, 1, 0, 0],
+         [0, 1, 1, 0, 1, 1, 0],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [0, 1, 1, 0, 1, 1, 0],
+         [0, 0, 1, 1, 1, 0, 0]
+     ], //0
+     [
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 1, 1, 1, 1, 0, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [1, 1, 1, 1, 1, 1, 1]
+     ], //1
+     [
+         [0, 1, 1, 1, 1, 1, 0],
+         [1, 1, 0, 0, 0, 1, 1],
+         [0, 0, 0, 0, 0, 1, 1],
+         [0, 0, 0, 0, 1, 1, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 0, 1, 1, 0, 0, 0],
+         [0, 1, 1, 0, 0, 0, 0],
+         [1, 1, 0, 0, 0, 0, 0],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 1, 1, 1, 1, 1]
+     ], //2
+     [
+         [1, 1, 1, 1, 1, 1, 1],
+         [0, 0, 0, 0, 0, 1, 1],
+         [0, 0, 0, 0, 1, 1, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 0, 1, 1, 1, 0, 0],
+         [0, 0, 0, 0, 1, 1, 0],
+         [0, 0, 0, 0, 0, 1, 1],
+         [0, 0, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [0, 1, 1, 1, 1, 1, 0]
+     ], //3
+     [
+         [0, 0, 0, 0, 1, 1, 0],
+         [0, 0, 0, 1, 1, 1, 0],
+         [0, 0, 1, 1, 1, 1, 0],
+         [0, 1, 1, 0, 1, 1, 0],
+         [1, 1, 0, 0, 1, 1, 0],
+         [1, 1, 1, 1, 1, 1, 1],
+         [0, 0, 0, 0, 1, 1, 0],
+         [0, 0, 0, 0, 1, 1, 0],
+         [0, 0, 0, 0, 1, 1, 0],
+         [0, 0, 0, 1, 1, 1, 1]
+     ], //4
+     [
+         [1, 1, 1, 1, 1, 1, 1],
+         [1, 1, 0, 0, 0, 0, 0],
+         [1, 1, 0, 0, 0, 0, 0],
+         [1, 1, 1, 1, 1, 1, 0],
+         [0, 0, 0, 0, 0, 1, 1],
+         [0, 0, 0, 0, 0, 1, 1],
+         [0, 0, 0, 0, 0, 1, 1],
+         [0, 0, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [0, 1, 1, 1, 1, 1, 0]
+     ], //5
+     [
+         [0, 0, 0, 0, 1, 1, 0],
+         [0, 0, 1, 1, 0, 0, 0],
+         [0, 1, 1, 0, 0, 0, 0],
+         [1, 1, 0, 0, 0, 0, 0],
+         [1, 1, 0, 1, 1, 1, 0],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [0, 1, 1, 1, 1, 1, 0]
+     ], //6
+     [
+         [1, 1, 1, 1, 1, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [0, 0, 0, 0, 1, 1, 0],
+         [0, 0, 0, 0, 1, 1, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 0, 1, 1, 0, 0, 0],
+         [0, 0, 1, 1, 0, 0, 0],
+         [0, 0, 1, 1, 0, 0, 0],
+         [0, 0, 1, 1, 0, 0, 0]
+     ], //7
+     [
+         [0, 1, 1, 1, 1, 1, 0],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [0, 1, 1, 1, 1, 1, 0],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [0, 1, 1, 1, 1, 1, 0]
+     ], //8
+     [
+         [0, 1, 1, 1, 1, 1, 0],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [1, 1, 0, 0, 0, 1, 1],
+         [0, 1, 1, 1, 0, 1, 1],
+         [0, 0, 0, 0, 0, 1, 1],
+         [0, 0, 0, 0, 0, 1, 1],
+         [0, 0, 0, 0, 1, 1, 0],
+         [0, 0, 0, 1, 1, 0, 0],
+         [0, 1, 1, 0, 0, 0, 0]
+     ], //9
+     [
+         [0, 0, 0, 0, 0, 0, 0],
+         [0, 0, 1, 1, 1, 0, 0],
+         [0, 0, 1, 1, 1, 0, 0],
+         [0, 0, 1, 1, 1, 0, 0],
+         [0, 0, 0, 0, 0, 0, 0],
+         [0, 0, 0, 0, 0, 0, 0],
+         [0, 0, 1, 1, 1, 0, 0],
+         [0, 0, 1, 1, 1, 0, 0],
+         [0, 0, 1, 1, 1, 0, 0],
+         [0, 0, 0, 0, 0, 0, 0]
+     ] //:
+ ];
+ let data = [],
+     balls = [],
+     change = [],
+     R = canvas.height / 20 - 1,
+     time;
+ canvas.width = 14 * (R + 2) * 8 - (R + 2) * 2;
+ (() => {
+     let tempDate = /(\d)(\d):(\d)(\d):(\d)(\d)/.exec(new Date());
+     data.push(tempDate[1], tempDate[2], 10, tempDate[3], tempDate[4], 10, tempDate[5], tempDate[6])
+ })();
+
+ //生成点阵数据
+ function renderDigit(i, num) {
+     for (let index = 0; index < dianMap[num].length; index++) {
+         for (let j = 0; j < dianMap[num][index].length; j++) {
+             if (dianMap[num][index][j] === 1) {
+                 ctx.beginPath();
+                 ctx.arc(14 * (R + 2) * i + j * 2 * (R + 1) + (R + 1), index * 2 * (R + 1) + (R + 1), R, 0, 2 * Math.PI);
+                 ctx.closePath();
+                 ctx.fill();
+             }
+         }
+     }
+ }
+ // 更新时间
+ function updateTime() {
+     let newDate = /(\d)(\d):(\d)(\d):(\d)(\d)/.exec(new Date());
+     let tempData = [newDate[1], newDate[2], 10, newDate[3], newDate[4], 10, newDate[5], newDate[6]]
+     // debugger;
+     for (let i = 0; i < data.length; i++) {
+         if (data[i] != tempData[i]) {
+             // clearDigit(i);
+             showBalls(i, tempData[i]);
+             renderDigit(i, tempData[i]);
+         }
+     }
+     data = tempData.concat();
+ }
+
+ function showBalls(index, num) {
+     for (let i = 0; i < dianMap[num].length; i++) {
+         for (let j = 0; j < dianMap[num][i].length; j++) {
+             if (dianMap[num][i][j] === 1) {
+                 let ball = {
+                     x: 14 * (R + 2) * index + j * 2 * (R + 1) + (R + 1),
+                     y: i * 2 * (R + 1) + (R + 1),
+                     setpX: Math.random() * 2 - 1,
+                     setpY: -2 * (Math.random() + 1),
+                     color: getRadomColor()
+                 }
+                 balls.push(ball);
+             }
+         }
+     }
+ }
+
+ function animateBalls() {
+     for (let i = 0; i < balls.length; i++) {
+         const item = balls[i];
+         item.setpY += 9.8 * 6 / 100;
+         item.x += item.setpX;
+         item.y += item.setpY;
+         ctx.beginPath();
+         ctx.arc(item.x, item.y, R, 0, 2 * Math.PI);
+         ctx.fillStyle = balls[i].color;
+         ctx.closePath();
+         ctx.fill();
+         if (item.x > canvas.width + R || item.y > canvas.height + R) {
+             balls.splice(i, 1);
+             i--;
+         }
+     }
+ }
+
+
+ function initRender() {
+     canvas.height = canvas.height;
+     for (let i = 0; i < data.length; i++) {
+         // debugger;
+         renderDigit(i, data[i]);
+     }
+     updateTime();
+     animateBalls();
+     requestAnimationFrame(initRender);
+ }
+
+ function getRadomColor() {
+     let colorBox = ['#67C23A', '#E6A23C', '#F56C6C', '#409EFF'];
+     return colorBox[~~(Math.random() * colorBox.length)];
+ }
+ initRender();
+</script>
+</div>
+<div id="live2d-widget" class="live2d-widget-container" style="position: fixed; right: 0px; bottom: -20px; width: 150px; height: 300px; z-index: 99999; opacity: 1; pointer-events: none;">
+<canvas id="live2dcanvas" width="300" height="600" style="position: absolute; left: 0px; top: 0px; width: 150px; height: 300px;">
+</canvas>
+</div><hr/>
+                    </li>
+                    
+					
+                </ul>
+        </section>
+            <!-- 左栏固定开关，记得及时删除这段代码 Start-->
+            <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
+                    function switchFixed(){
+                        var value = document.getElementById('side').style.position === 'absolute' ? 'fixed' : 'absolute';
+                        document.getElementById('side').style.position = value;
+                    }
+                </script>
+                <input id="cb" type="checkbox">
+                <span class="slider round"></span>
+				     
+            </label>
+            <style>
+                @media (min-width:750px){
+                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
+                    .switch input{display:none;}
+                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;}
+                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s;}
+                    input:checked + .slider{background-color:#1abc9c;}
+                    input:focus + .slider{box-shadow:0 0 1px #1abc9c;}
+                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
+                    .slider.round:before{border-radius:50%;}
+                }
+            </style>
+	
+            <!-- 左侧固定开关，记得及时删除这段代码 End-->
+
+            <!-- 个人肖像 -->
+        <section class="me">
+                <section class="portrait">
+                    <div class="loading">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+					
+                    <!-- 头像照片 -->
+                    <img id=avatar class="avatar" src="./assets/images/avatar.jpg">
+		    <script type="text/javascript">
+                            avatar.onload = function() {
+                            setTimeout(function(){
+                                document.getElementsByClassName('avatar')[0] .style.display = 'block';
+                                document.getElementsByClassName('loading')[0] .style.display = 'none';},1000)
+                            }
+                    </script>
+                </section>
+
+                <h1 class="name">张二奇</h1>
+                <h1 class="name">&nbsp;</h1>
+<h4 class="info-job">技术教师 / 华中师范大学第一附属中学</h4>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa-user" aria-hidden="true"></i>基本信息</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>出生年月</label>
+                        <span>1994 / 04</span>
+                    </li>
+                    <li>
+                        <label>政治面貌&nbsp;</label>
+                        <span>中共党员</span>
+                    </li>
+                    
+					 <li>
+                        <label>籍&nbsp; &nbsp; &nbsp; &nbsp;贯</label>
+                        <span>河南省遂平县</span>
+                    </li>
+					
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa-phone" aria-hidden="true"></i>联系方式</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>手&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;机</label>
+                        <a href="tel:15623225862" target="_blank">156****5862</a>
+                    </li>
+                    <li>
+                        <label>邮&nbsp; &nbsp; &nbsp; &nbsp;箱</label>
+                        <a href="mailto:erqi_jhang@qq.com" target="_blank">erqi_jhang@qq.com</a>
+                    </li>
+                    <li>
+                        <label>个人主页</label>
+                        <a href="http://www.erqi.tk/" target="_blank">erqi.tk/</a>
+                    </li>
+                    <li>
+                        <label><em>Github</em></label>
+                        <a href="https://github.com/ErqiZHANG" target="_blank">github.com/ErqiZHANG/</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 学历水平 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class="fa-code" aria-hidden="true"></i>学历水平</h2>
+                <hr/>
+                <ul>
+					<li>
+                        <label>专&nbsp; &nbsp; &nbsp; 业</label>
+                        <span>教育技术学</span>
+                    </li>
+					<li>
+                        <label>学&nbsp; &nbsp; &nbsp; 历</label>
+                        <span>研究生</span>
+                    </li>
+					<li>
+                        <label>学&nbsp; &nbsp; &nbsp; 位</label>
+                        <span>硕士</span>
+                    </li>
+					<li>
+                        <label>毕业院校</label>
+                        <span>华中师范大学</span>
+                    </li><li>
+                        <label>毕业时间</label>
+                        <span>2019 / 07</span>
+                    </li>
+					<!-- 本部分为条形显示区域，暂时注释
+                    <li>
+                        <label>HTML</label>
+                        <progress value="90" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>CSS</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>JavaScript</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>React</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Node.js</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>小程序</label>
+                        <progress value="70" max="100"></progress>
+                    </li>-->
+                </ul>
+            </section>
+<section class="profile info-unit">
+                <h2>
+                    <i class="fa-user" aria-hidden="true"></i>英语水平</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>CET-6</label>
+                        <span>438</span>
+                    </li>
+                    
+					
+                </ul>
+        </section>
+	 
+						
+       
+
+            <!-- 技术栈 -->
+           
+        </section>
+       <section class="main">
+ <!-- 自我评价 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa" aria-hidden="true"></i>个人简介</h2>
+                <hr/>
+                <p  align="justify";>&nbsp; &nbsp; &nbsp; 华中师范大学第一附属中学技术学科专职教师，校“教师创客联盟”成员，华中科技大学-华师一附中一体化建设试验区 “AI+机器人”实验室负责人，校优秀青年团员教师、校教科研先进工作者。作为项目负责人多次申报区级、市级科研课题并立项，参与并完成多项省级和校级重点课题，参与编写STEAM与创客教育、人工智能教育、劳动教育教材，指导学生作品获武汉市学生小课题立项。致力于高中STEAM与创客教育、人工智能教育的教学理论与实践，注重高中生创新能力和动手实践能力的培养，开设《我爱发明》、《创新与专利》、《AI+机器人》等校本课程。</p>
+            </section>
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <i aria-hidden="true"></i>教育经历</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>河南师范大学 - 教育技术学专业（本科）- 理学学士学位&nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <time>2012.09——2016.07</time>
+                        </h3>
+                       
+                    </li>
+                    <li>
+                        <h3>
+                            <span>华中师范大学 - 教育技术学专业（硕士）- 理学硕士学位</span>
+                            <time>2016.09——2019.07</time>
+                        </h3>
+                       
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 工作经历 -->
+            <section class="work info-unit">
+                <h2>
+                    <i aria-hidden="true"></i>工作经历</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>华中师范大学第一附属中学－技术教师</span>
+                            <time>2019.07—— 今</time>
+                        </h3>
+                        <!--  <ul class="info-content">
+                            <li>深度参与XX项目迭代XX的前端开发工作，独立承担并完成XX、XX、XXXX等功能点的开发，主要维护并修复XX、XX、XX等功能点bug若干。项目采用技术栈
+                                <mark>React+React Router+Node.js+SASS</mark>，实现
+                                <mark>前后端完全分离</mark>。</li>
+                            <li>配合UI和后端，根据产品需求提供H5页面嵌入到后台模板，要求
+                                <mark>移动端显示正常</mark>。</li>
+                            <li>主要参与XXXXXXX的静态页面开发工作，要求
+                                <mark>在支付宝环境下完全兼容</mark>。</li>
+                        </ul>-->
+                    </li>
+                   
+                </ul>
+            </section>
+
+            <!-- 科研课题 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa" aria-hidden="true"></i>科研课题</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>2018 年湖北省教育科学“十三五”规划专项资助重点课题《美国中小学机器人课程研究》</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>重点参与 / 结题&nbsp;</time>
+                        </h3>
+                   </li>
+                    <li>
+                        <h3>
+                            <span>2018 年华中师范大学第一附属中学重点课题 《高中创客课程建设与实施》</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>重点参与 / 结题&nbsp;</time>
+                        </h3>
+                   </li><li>
+                        <h3>
+                            <span>2020 年武昌区教育科学“十三五”规划课题 教师个人课题《基于 STEAM 的高中通用技术教学实践探究》</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>主持人 / 结题&nbsp;</time>
+                        </h3>
+                   </li><li>
+                        <h3>
+                            <span>2021 年武汉市教育科学规划高中专项课题 教师个人课题《在通用技术中渗透劳动教育的实践研究》</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>主持人/ 在研&nbsp;</time>
+                        </h3>
+                   </li>
+
+                </ul>
+            </section>
+ <!-- 发表论文、教材情况 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa" aria-hidden="true"></i>发表论文、教材情况</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span> 郑旭东，<mark>张二奇</mark>，吴秀圆. 新媒体对青少年科学学习影响的调查研究[M]//王挺：中国科学教育发展报告（2019）</span>
+                           
+                            
+                        </h3>
+                   </li>
+					 <li>
+                        <h3>
+                            <span> 李小娟，梁中锋，<mark>张二奇</mark>
+                          ，李世瑾. 基于SPOC 的混合教学实证研究[J]. 数字教育</span>
+                           
+                            
+                        </h3>
+                   </li> 
+					 <li>
+                        <h3>
+                            <span> <mark>张二奇</mark>，吕志明. 基于云服务的大学生微视频平台设计开发研究[J]. 科技创新与应用
+</span>
+                           
+                            
+                        </h3>
+                   </li>
+					<li>
+                        <h3>
+                            <span> 促进核心素养发展的 STEAM 课程系列教材《东奥图腾》，湖北科学技术出版社 2021 年 1 月版，<mark>本册主编</mark></span>
+                           
+                            
+                        </h3>
+                   </li>
+					<li>
+                        <h3>
+                            <span>促进核心素养发展的 STEAM 课程系列教材《环游世界》，湖北科学技术出版社 2021 年 1 月版，<mark>参与编写</mark>
+							</span>
+                           
+                            
+                        </h3>
+                   </li>
+					<li>
+                        <h3>
+                            <span>普通高中劳动教育教材《劳动（高二下）》，人民出版社，<mark>参与编写</mark>
+							</span>
+                   </h3>
+                   </li>
+				</ul>
+            </section>
+			 <!-- 获奖情况 -->
+			 <section class="work info-unit">
+                <h2>
+                    <i aria-hidden="true"></i>主要获奖情况</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>第七届“中国移动‘和教育’杯”全国教育技术论文评选一等奖</span>
+                            <time>2016.11</time>
+                        </h3>
+                       
+                    </li>
+					<li>
+                        <h3>
+                            <span>首届“iTeach”全国大学生数字化教育应用创新大赛二等奖</span>
+                            <time>2017.12</time>
+                        </h3>
+                       
+                    </li><li>
+                        <h3>
+                            <span>华中师范大学第一附属中学优秀青年教工</span>
+                            <time>2019</time>
+                        </h3>
+                       
+                    </li><li>
+                        <h3>
+                            <span>武昌区共青团委“团建之星”评选“学习之星”</span>
+                            <time>2020.12</time>
+                        </h3>
+                       
+                    </li><li>
+                        <h3>
+                            <span>华中师范大学第一附属中学第四届教学节“青年教师教学技能比赛”二等奖</span>
+                            <time>2021.03</time>
+                        </h3>
+                       
+                    </li><li>
+                        <h3>
+                            <span>2020—2021 学年度青年教工团支部优秀团员教工</span>
+                            <time>2021.05</time>
+                        </h3>
+                       
+                    </li><li>
+                        <h3>
+                            <span>2020—2021 学年度华中师范大学第一附属中学教科研先进工作者</span>
+                            <time>2021.09</time>
+                        </h3>
+                       
+                    </li><li>
+                        <h3>
+                            <span>2020—2021 学年度华中师范大学第一附属中学工会积极分子</span>
+                            <time>2021.09</time>
+                        </h3>
+                       
+                    </li>
+                   
+                </ul>
+            </section>
+            
+           
+        </section>
+    </article>
+
+
+    <footer class="footer">
+		
+        
+		<p>Copyright©2022||文档最后更新时间为2022年04月19日</p>
+   
+</footer>
+
+   <!-- 
+    <aside>
+        <ul>
+            <li>
+                <a href="https://github.com/oduang/resume" target="_blank">源代码</a>
+            </li>
+            <li>
+                <a href="https://www.oduang.com/" target="_blank">Blog</a>
+            </li>
+        </ul>
+    </aside> -->
+
+    <script src="./assets/js/index.js"></script>
+
+</body>
+
+</html>
